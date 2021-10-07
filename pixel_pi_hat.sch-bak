@@ -30,7 +30,7 @@ U 1 1 6152F680
 P 3495 1425
 F 0 "J1" H 3603 1606 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3603 1515 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3495 1425 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_804-102_1x02_P5.00mm_45Degree" H 3495 1425 50  0001 C CNN
 F 3 "~" H 3495 1425 50  0001 C CNN
 	1    3495 1425
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 615300DE
 P 3495 1930
 F 0 "J2" H 3603 2211 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 3603 2120 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3495 1930 50  0001 C CNN
+F 2 "TerminalBlock_WAGO:TerminalBlock_WAGO_804-103_1x03_P5.00mm_45Degree" H 3495 1930 50  0001 C CNN
 F 3 "~" H 3495 1930 50  0001 C CNN
 	1    3495 1930
 	1    0    0    -1  
@@ -90,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	6680 1645 6585 1645
 Wire Wire Line
-	4835 1145 6765 1145
+	4835 1145 5660 1145
 Wire Wire Line
 	6765 1145 6765 1590
 Wire Wire Line
@@ -274,4 +274,17 @@ Wire Wire Line
 Connection ~ 4555 2030
 Wire Wire Line
 	4555 2030 4835 2030
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 615ED83F
+P 5760 945
+F 0 "J?" V 5822 989 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 5913 989 50  0000 L CNN
+F 2 "" H 5760 945 50  0001 C CNN
+F 3 "~" H 5760 945 50  0001 C CNN
+	1    5760 945 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5760 1145 6765 1145
 $EndSCHEMATC
